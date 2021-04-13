@@ -191,14 +191,14 @@
         listItem("Level", G.level);
       }
       listItem("Time", G.elapsed_time);
-      listItem("Kills", G.kill_count);
+      listItem("Words", G.kill_count);
       listItem("Hits", G.hit_count);
       listItem("Shots", G.fire_count);
       listItem("Accuracy", Math.round(((G.hit_count / G.fire_count) || 0) * 100) + "%");
       if(G.passed_count > 0) { 
         listItem("Escaped", G.passed_count);
       }      
-      listItem("Top Weapons", G.weapons);
+      listItem("Top Letters", G.weapons);
       listItem("Problematic Sequences", G.problematic);
       
       G.$result.appendChild(list);
