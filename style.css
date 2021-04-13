@@ -31,7 +31,7 @@ body {
     font-size: 40px;
 }
 
-#start, #start-over {
+#start, #start-over, #claim {
     background-color: mediumpurple;
     color: white;
     border-radius: 20px;
