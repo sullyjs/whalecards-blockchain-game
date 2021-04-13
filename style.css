@@ -72,9 +72,8 @@ body {
 }
 
 figure#context {
-  position: absolute;
-  left: calc(50% - 300px);
-  top: calc(50% - 300px);
+  position: relative;
+  text-align: center;
   width: 600px;
   height: 600px;
   overflow: hidden;
